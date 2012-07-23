@@ -21,12 +21,14 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="english_ime_name" msgid="7252517407088836577">"Androidキーボード"</string>
+    <string name="aosp_android_keyboard_ime_name" msgid="7877134937939182296">"Androidキーボード（AOSP）"</string>
     <string name="english_ime_settings" msgid="6661589557206947774">"Androidキーボードの設定"</string>
     <string name="english_ime_input_options" msgid="3909945612939668554">"入力オプション"</string>
-    <string name="spell_checker_service_name" msgid="2003013122022285508">"Androidスペルチェッカー"</string>
+    <string name="spell_checker_service_name" msgid="7338064335159755926">"Androidスペルチェッカー"</string>
+    <string name="aosp_spell_checker_service_name" msgid="6985142605330377819">"Androidスペルチェッカー（AOSP）"</string>
     <string name="android_spell_checker_settings" msgid="5822324635435443689">"スペルチェックの設定"</string>
-    <string name="use_proximity_option_title" msgid="7469233942295924620">"近接データを使用"</string>
-    <string name="use_proximity_option_summary" msgid="2857708859847261945">"スペルチェックでキーボードと同じような近接アルゴリズムを使用する"</string>
+    <string name="use_contacts_for_spellchecking_option_title" msgid="5374120998125353898">"連絡先名の検索"</string>
+    <string name="use_contacts_for_spellchecking_option_summary" msgid="8754413382543307713">"スペルチェッカーでは連絡先リストのエントリを使用します"</string>
     <string name="vibrate_on_keypress" msgid="5258079494276955460">"キー操作バイブ"</string>
     <string name="sound_on_keypress" msgid="6093592297198243644">"キー操作音"</string>
     <string name="popup_on_keypress" msgid="123894815723512944">"キー押下時ポップアップ"</string>
@@ -34,7 +36,10 @@
     <string name="correction_category" msgid="2236750915056607613">"テキストの修正"</string>
     <string name="misc_category" msgid="6894192814868233453">"他のオプション"</string>
     <string name="advanced_settings" msgid="362895144495591463">"詳細設定"</string>
-    <string name="advanced_settings_summary" msgid="5193513161106637254">"上級ユーザー向けオプション"</string>
+    <string name="advanced_settings_summary" msgid="4487980456152830271">"上級者向けオプション"</string>
+    <string name="include_other_imes_in_language_switch_list" msgid="4533689960308565519">"他の入力方法に切り替え"</string>
+    <string name="include_other_imes_in_language_switch_list_summary" msgid="840637129103317635">"言語切り替えキーは他の入力方法にも対応しています"</string>
+    <string name="suppress_language_switch_key" msgid="8003788410354806368">"言語切り替えキーを非表示"</string>
     <string name="key_preview_popup_dismiss_delay" msgid="6213164897443068248">"キーのポップアップ時間"</string>
     <string name="key_preview_popup_dismiss_no_delay" msgid="2096123151571458064">"すぐに消去"</string>
     <string name="key_preview_popup_dismiss_default_delay" msgid="2166964333903906734">"デフォルト"</string>
@@ -50,20 +55,20 @@
     <string name="prefs_suggestion_visibility_show_name" msgid="3219916594067551303">"常に表示"</string>
     <string name="prefs_suggestion_visibility_show_only_portrait_name" msgid="3551821800439659812">"縦向きで表示"</string>
     <string name="prefs_suggestion_visibility_hide_name" msgid="6309143926422234673">"常に非表示"</string>
-    <string name="prefs_settings_key" msgid="4623341240804046498">"設定キーを表示"</string>
     <string name="auto_correction" msgid="4979925752001319458">"自動修正"</string>
     <string name="auto_correction_summary" msgid="5625751551134658006">"誤入力をスペースまたは句読点キーで修正する"</string>
     <string name="auto_correction_threshold_mode_off" msgid="8470882665417944026">"OFF"</string>
     <string name="auto_correction_threshold_mode_modest" msgid="8788366690620799097">"中"</string>
     <string name="auto_correction_threshold_mode_aggeressive" msgid="3524029103734923819">"強"</string>
     <string name="auto_correction_threshold_mode_very_aggeressive" msgid="3386782235540547678">"最も強い"</string>
-    <string name="bigram_suggestion" msgid="2636414079905220518">"バイグラム入力候補表示"</string>
-    <string name="bigram_suggestion_summary" msgid="4383845146070101531">"直前の単語から入力候補を予測します"</string>
-    <string name="bigram_prediction" msgid="8914273444762259739">"バイグラム予測"</string>
+    <string name="bigram_suggestion" msgid="8169311444438922902">"次の入力候補"</string>
+    <string name="bigram_suggestion_summary" msgid="6635527607242625713">"直前の単語から入力候補を予測します"</string>
+    <string name="bigram_prediction" msgid="3216364899483135294">"次の入力候補を予測"</string>
     <string name="bigram_prediction_summary" msgid="1747261921174300098">"前の語句も予測に使用"</string>
     <string name="added_word" msgid="8993883354622484372">"<xliff:g id="WORD">%s</xliff:g>:保存しました"</string>
     <string name="label_go_key" msgid="1635148082137219148">"実行"</string>
     <string name="label_next_key" msgid="362972844525672568">"次へ"</string>
+    <string name="label_previous_key" msgid="1211868118071386787">"前へ"</string>
     <string name="label_done_key" msgid="2441578748772529288">"完了"</string>
     <string name="label_send_key" msgid="2815056534433717444">"送信"</string>
     <string name="label_to_alpha_key" msgid="4793983863798817523">"ABC"</string>
@@ -76,8 +81,8 @@
     <string name="spoken_no_text_entered" msgid="7479685225597344496">"テキストが入力されていません"</string>
     <string name="spoken_description_unknown" msgid="3197434010402179157">"キーコード:%d"</string>
     <string name="spoken_description_shift" msgid="244197883292549308">"Shift"</string>
-    <string name="spoken_description_shift_shifted" msgid="954941524766465022">"Shift有効"</string>
-    <string name="spoken_description_caps_lock" msgid="5660626444912131764">"Caps lock有効"</string>
+    <string name="spoken_description_shift_shifted" msgid="1681877323344195035">"Shift有効（タップして解除）"</string>
+    <string name="spoken_description_caps_lock" msgid="3276478269526304432">"Caps lock有効（タップして解除）"</string>
     <string name="spoken_description_delete" msgid="8740376944276199801">"DEL"</string>
     <string name="spoken_description_to_symbol" msgid="5486340107500448969">"記号"</string>
     <string name="spoken_description_to_alpha" msgid="23129338819771807">"英字"</string>
@@ -88,46 +93,15 @@
     <string name="spoken_description_mic" msgid="615536748882611950">"音声入力"</string>
     <string name="spoken_description_smiley" msgid="2256309826200113918">"顔文字"</string>
     <string name="spoken_description_return" msgid="8178083177238315647">"Enter"</string>
-    <string name="spoken_description_comma" msgid="4970844442999724586">"カンマ"</string>
-    <string name="spoken_description_period" msgid="5286614628077903945">"ピリオド"</string>
-    <string name="spoken_description_left_parenthesis" msgid="8524822120595052415">"左かっこ"</string>
-    <string name="spoken_description_right_parenthesis" msgid="1085757995851933164">"右かっこ"</string>
-    <string name="spoken_description_colon" msgid="4312420908484277077">"コロン"</string>
-    <string name="spoken_description_semicolon" msgid="37737920987155179">"セミコロン"</string>
-    <string name="spoken_description_exclamation_mark" msgid="2625684427460737157">"感嘆符"</string>
-    <string name="spoken_description_question_mark" msgid="7074097784255379666">"疑問符"</string>
-    <string name="spoken_description_double_quote" msgid="5485320575389905967">"二重引用符"</string>
-    <string name="spoken_description_single_quote" msgid="4451320362665463938">"単一引用符"</string>
+    <string name="spoken_description_search" msgid="1247236163755920808">"検索"</string>
     <string name="spoken_description_dot" msgid="40711082435231673">"中点"</string>
-    <string name="spoken_description_square_root" msgid="190595160284757811">"平方根"</string>
-    <string name="spoken_description_pi" msgid="4554418247799952239">"円周率記号"</string>
-    <string name="spoken_description_delta" msgid="3607948313655721579">"デルタ"</string>
-    <string name="spoken_description_trademark" msgid="475877774077871369">"商標記号"</string>
-    <string name="spoken_description_care_of" msgid="7492800237237796530">"宛名記号"</string>
-    <string name="spoken_description_star" msgid="1009742725387231977">"アスタリスク"</string>
-    <string name="spoken_description_pound" msgid="5530577649206922631">"ナンバー記号"</string>
-    <string name="spoken_description_ellipsis" msgid="1687670869947652062">"省略記号"</string>
-    <string name="spoken_description_low_double_quote" msgid="3551394572784840975">"下付き二重引用符"</string>
-    <string name="voice_warning_title" msgid="4419354150908395008">"音声入力"</string>
-    <string name="voice_warning_locale_not_supported" msgid="637923019716442333">"音声入力は現在英語には対応していますが、日本語には対応していません。"</string>
-    <string name="voice_warning_may_not_understand" msgid="5596289095878251072">"音声入力ではGoogleの音声認識技術を利用します。"<a href="http://m.google.com/privacy">"モバイルプライバシーポリシー"</a>"が適用されます。"</string>
-    <string name="voice_warning_how_to_turn_off" msgid="3190378129944934856">"音声入力をOFFにするには、入力方法の設定を開きます。"</string>
-    <string name="voice_hint_dialog_message" msgid="1420686286820661548">"音声入力するには、マイクボタンを押してください。"</string>
-    <string name="voice_listening" msgid="467518160751321844">"お話しください"</string>
-    <string name="voice_working" msgid="6666937792815731889">"処理中"</string>
-    <string name="voice_initializing" msgid="661962047129906646"></string>
-    <string name="voice_error" msgid="5140896300312186162">"エラーです。もう一度お試しください。"</string>
-    <string name="voice_network_error" msgid="6649556447401862563">"接続できませんでした"</string>
-    <string name="voice_too_much_speech" msgid="5746973620134227376">"音声が長すぎてエラーになりました。"</string>
-    <string name="voice_audio_error" msgid="5072707727016414454">"オーディオエラー"</string>
-    <string name="voice_server_error" msgid="7807129913977261644">"サーバーエラー"</string>
-    <string name="voice_speech_timeout" msgid="8461817525075498795">"音声が聞き取れません"</string>
-    <string name="voice_no_match" msgid="4285117547030179174">"該当なし"</string>
-    <string name="voice_not_installed" msgid="5552450909753842415">"Voice Searchはインストールされていません"</string>
-    <string name="voice_swipe_hint" msgid="6943546180310682021"><b>"ヒント:"</b>" 音声入力するにはキーボードをスワイプします"</string>
-    <string name="voice_punctuation_hint" msgid="1611389463237317754"><b>"ヒント:"</b>" 次回は句読点として「period」、「comma」、「question mark」などの音声入力を試してみてください。"</string>
-    <string name="cancel" msgid="6830980399865683324">"キャンセル"</string>
-    <string name="ok" msgid="7898366843681727667">"OK"</string>
+    <string name="spoken_description_shiftmode_on" msgid="5700440798609574589">"Shift有効"</string>
+    <string name="spoken_description_shiftmode_locked" msgid="593175803181701830">"Caps lock有効"</string>
+    <string name="spoken_description_shiftmode_off" msgid="657219998449174808">"Shift解除"</string>
+    <string name="spoken_description_mode_symbol" msgid="7183343879909747642">"記号モード"</string>
+    <string name="spoken_description_mode_alpha" msgid="3528307674390156956">"英数モード"</string>
+    <string name="spoken_description_mode_phone" msgid="6520207943132026264">"電話モード"</string>
+    <string name="spoken_description_mode_phone_shift" msgid="5499629753962641227">"電話記号モード"</string>
     <string name="voice_input" msgid="3583258583521397548">"音声入力キー"</string>
     <string name="voice_input_modes_main_keyboard" msgid="3360660341121083174">"メインキーボード上"</string>
     <string name="voice_input_modes_symbols_keyboard" msgid="7203213240786084067">"記号キーボード上"</string>
@@ -135,18 +109,36 @@
     <string name="voice_input_modes_summary_main_keyboard" msgid="6586544292900314339">"メインキーボードのマイク"</string>
     <string name="voice_input_modes_summary_symbols_keyboard" msgid="5233725927281932391">"記号キーボードのマイク"</string>
     <string name="voice_input_modes_summary_off" msgid="63875609591897607">"音声入力は無効です"</string>
-    <string name="selectInputMethod" msgid="315076553378705821">"入力方法の選択"</string>
     <string name="configure_input_method" msgid="373356270290742459">"入力方法を設定"</string>
     <string name="language_selection_title" msgid="1651299598555326750">"入力言語"</string>
     <string name="select_language" msgid="3693815588777926848">"入力言語"</string>
-    <string name="hint_add_to_dictionary" msgid="9006292060636342317">"←保存するにはもう一度タップ"</string>
+    <string name="hint_add_to_dictionary" msgid="573678656946085380">"保存するにはもう一度タップ"</string>
     <string name="has_dictionary" msgid="6071847973466625007">"辞書を利用できます"</string>
     <string name="prefs_enable_log" msgid="6620424505072963557">"ユーザーフィードバックを有効にする"</string>
     <string name="prefs_description_log" msgid="5827825607258246003">"IMEの機能向上のため、使用統計状況やクラッシュレポートをGoogleに自動送信します。"</string>
     <string name="keyboard_layout" msgid="8451164783510487501">"キーボードのテーマ"</string>
-    <string name="subtype_de_qwerty" msgid="3358900499589259491">"ドイツ語QWERTY"</string>
     <string name="subtype_en_GB" msgid="88170601942311355">"英語（英国）"</string>
     <string name="subtype_en_US" msgid="6160452336634534239">"英語（米国）"</string>
+    <string name="subtype_with_layout_en_GB" msgid="2179097748724725906">"英語（英国）（<xliff:g id="LAYOUT">%s</xliff:g>）"</string>
+    <string name="subtype_with_layout_en_US" msgid="1362581347576714579">"英語（米国）（<xliff:g id="LAYOUT">%s</xliff:g>）"</string>
+    <string name="subtype_no_language" msgid="141420857808801746">"言語設定なし"</string>
+    <string name="subtype_no_language_qwerty" msgid="2956121451616633133">"言語設定なし（QWERTY）"</string>
+    <string name="subtype_no_language_qwertz" msgid="1177848172397202890">"言語設定なし（QWERTZ）"</string>
+    <string name="subtype_no_language_azerty" msgid="8721460968141187394">"言語設定なし（AZERTY）"</string>
+    <string name="subtype_no_language_dvorak" msgid="3122976737669823935">"言語設定なし（Dvorak）"</string>
+    <string name="subtype_no_language_colemak" msgid="4205992994906097244">"言語設定なし（Colemak）"</string>
+    <string name="subtype_no_language_pcqwerty" msgid="8840928374394180189">"言語設定なし（PC）"</string>
+    <string name="custom_input_styles_title" msgid="8429952441821251512">"カスタム入力スタイル"</string>
+    <string name="add_style" msgid="6163126614514489951">"スタイル追加"</string>
+    <string name="add" msgid="8299699805688017798">"追加"</string>
+    <string name="remove" msgid="4486081658752944606">"削除"</string>
+    <string name="save" msgid="7646738597196767214">"保存"</string>
+    <string name="subtype_locale" msgid="8576443440738143764">"言語"</string>
+    <string name="keyboard_layout_set" msgid="4309233698194565609">"レイアウト"</string>
+    <string name="custom_input_style_note_message" msgid="8826731320846363423">"カスタム入力スタイルは、使用を開始する前に有効にする必要があります。今すぐ有効にしますか？"</string>
+    <string name="enable" msgid="5031294444630523247">"有効にする"</string>
+    <string name="not_now" msgid="6172462888202790482">"後で行う"</string>
+    <string name="custom_input_style_already_exists" msgid="8008728952215449707">"同じ入力スタイルが既に存在します: <xliff:g id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
     <string name="prefs_usability_study_mode" msgid="1261130555134595254">"使いやすさの研究モード"</string>
     <string name="prefs_keypress_vibration_duration_settings" msgid="1829950405285211668">"キー操作バイブの振動時間の設定"</string>
     <string name="prefs_keypress_sound_volume_settings" msgid="5875933757082305040">"キー操作音の音量設定"</string>
